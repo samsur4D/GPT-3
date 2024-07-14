@@ -51,7 +51,7 @@ background: linear-gradient(25deg, rgba(174,103,250,1) 15%, rgba(244,152,103,1) 
 .gptblog{
   background-image: url('https://i.ibb.co/Rb9T01Y/steve-johnson-ZPOo-DQc8y-Mw-unsplash.webp');
   background-position: center;
-  height: 1080px;
+  
   background-size: cover;
   border-radius: 2px;
   display: flex;
@@ -59,4 +59,56 @@ background: linear-gradient(25deg, rgba(174,103,250,1) 15%, rgba(244,152,103,1) 
   justify-content: center;
   flex-direction: column;
   object-fit: cover;
+}
+
+.think{
+  position: relative;
+  color: #e84118;
+  -webkit-text-stroke: 0.3vw  #487eb0;
+  text-transform: uppercase;
+}
+
+.think::before
+{
+  content:  attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+
+  color: #e1b12c;
+  -webkit-text-stroke:  0vw #e84118;
+  border-right: 2px solid #e1b12c;
+  overflow: hidden;
+  animation: animate 6s linear infinite;
+}
+
+@keyframes animate
+{
+   0%,10%,100%
+   {
+    width: 0;
+   }
+   70%,90%
+   {
+    width: 100%;
+   }
+}
+
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.text-animation {
+  animation: fadeIn 5s ease-in-out infinite;
 }

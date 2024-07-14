@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import bannerpic from "../assets/Header Illustration.png";
 import people from "../assets/Group 81.png";
 import google from "../assets/google.png";
@@ -9,15 +9,19 @@ import shop from "../assets/shopify.png";
 import rectangle from "../assets/Rectangle 17.png";
 
 const Banner = () => {
+  const [isOpen, setIsOpen] = useState(false);
   return (
     <>
       <section className="banner py-10">
-        <nav className="container mx-auto flex justify-between ">
+      <nav className="container mx-auto flex justify-between ">
           <div className="flex gap-32 items-center">
             <div>
-              <h1 className="text-4xl font-bold text-white">GPT-3</h1>
+              <h1 className="text-2xl lg:text-4xl font-bold text-white">GPT-3</h1>
             </div>
-            <div className="flex">
+            {/* -------------------- */}
+      
+            {/* -------------------- */}
+            <div className="flex hidden lg:block">
               <ul className="flex gap-10 text-white text-xl">
                 <li>Home</li>
                 <li>what is GPT?</li>
@@ -28,7 +32,7 @@ const Banner = () => {
             </div>
           </div>
 
-          <div className="flex items-center  gap-15">
+          <div className="flex hidden lg:block items-center  gap-15">
             <button className="text-white font-semibold px-6 py-2 rounded-md">
               Sign In
             </button>

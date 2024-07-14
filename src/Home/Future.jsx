@@ -86,15 +86,16 @@ const Future = () => {
       </div>
 
       {/* Feauters  */}
-      <div className="flex items-center justify-between container mx-auto">
-        <div>
-          <img src={feauters} alt="" />
+      <div className="flex  items-center justify-between container mx-auto">
+        <div data-aos="fade-right" className="basis-1/2">
+          <img className="w-[45rem]" src={feauters} alt="" />
         </div>
-        <div className="w-[550px]">
-          <h3 className="text-[#71E5FF]">
+        <div data-aos="fade-left" className="basis-1/2 flex justify-end">
+           <div className="max-w-[600px]">
+           <h3 className="text-[#71E5FF]">
             Request Early Access to Get Started
           </h3>
-          <h1 className="text-6xl font-bold text-one my-5">
+          <h1 className="text-5xl font-bold text-one my-5">
             The possibilities are beyond your imagination
           </h1>
           <p className="text-lg text-gray-300 mb-5">
@@ -106,6 +107,7 @@ const Future = () => {
           <h3 className="text-[#71E5FF]">
             Request Early Access to Get Started
           </h3>
+           </div>
         </div>
       </div>
 
@@ -128,7 +130,7 @@ const Future = () => {
       {/* HAppen */}
 
       <div className="container mx-auto mt-60">
-        <div>
+        <div className="text-animation">
           {" "}
           <h1 className="text-one text-6xl pb-3 font-bold mb-16">
             A lot is happening, <br />
