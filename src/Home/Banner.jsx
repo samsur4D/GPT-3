@@ -1,6 +1,12 @@
 import React from "react";
 import bannerpic from "../assets/Header Illustration.png";
 import people from "../assets/Group 81.png";
+import google from "../assets/google.png";
+import slack from "../assets/slack.png";
+import atlas from "../assets/atlassian.png";
+import dropbox from "../assets/dropbox.png";
+import shop from "../assets/shopify.png";
+import rectangle from "../assets/Rectangle 17.png";
 
 const Banner = () => {
   return (
@@ -45,7 +51,11 @@ const Banner = () => {
             </p>
             <div className="mb-5 h-12 flex">
               {/* <textare* className="w-96 bg-white opacity-20 " placeholder="Your Email Address" name="" id=""></textare*/}
-               <input className="bg-white opacity-25 w-96 px-10 rounded-l-md" placeholder="Your Email Address"  type="email"></input>
+              <input
+                className="bg-white opacity-25 w-96 px-10 rounded-l-md"
+                placeholder="Your Email Address"
+                type="email"
+              ></input>
               <button className="bg-orange-700 text-white font-semibold px-6 rounded-r-md ">
                 Get started
               </button>
@@ -66,6 +76,71 @@ const Banner = () => {
           </div>
         </div>
         {/* ____________________________ */}
+        <div className=" flex items-center container mx-auto justify-center gap-28 py-20">
+          <img src={google} alt="" />
+          <img src={slack} alt="" />
+          <img src={atlas} alt="" />
+          <img src={dropbox} alt="" />
+          <img src={shop} alt="" />
+        </div>
+        {/* ____________________________ */}
+        <div className="what-is-gtp  px-32 pt-20 container mx-auto">
+          <img className="w-16 mb-3" src={rectangle} alt="" />
+          <div className="flex justify-between gap-96 mb-24 ">
+            <h1 className="w-[700px] text-3xl font-bold text-white">
+              What is GPT-3
+            </h1>
+            <p className="text-[#A681DD]">
+              We so opinion friends me message as delight. Whole front do of
+              plate heard oh ought. His defective nor convinced residence own.
+              Connection has put impossible own apartments boisterous. At
+              jointure ladyship an insisted so humanity he. Friendly bachelor
+              entrance to on by.
+            </p>
+          </div>
+          <div className="flex justify-between gap-96 mb-24">
+            <h1 className="possibilities text-5xl font-bold">
+              The possibilities are beyond your imagination
+            </h1>
+            <h5 className="w-[200px] text-orange-600">Explore The Library</h5>
+          </div>
+          <div className="flex justify-center gap-16 pb-24">
+            <div>
+              <img className="w-16 mb-3" src={rectangle} alt="" />
+              <div>
+                <h2 className="text-3xl font-bold text-white mb-10">
+                  Chatbots
+                </h2>
+                <p className="text-[#A681DD]">
+                  We so opinion friends me message as delight. Whole front do of
+                  plate heard oh ought.{" "}
+                </p>
+              </div>
+            </div>
+           <div>
+           <img className="w-16 mb-3" src={rectangle} alt="" />
+           <div>
+              <h2 className="text-3xl font-bold text-white mb-10">
+                Knowledgebase
+              </h2>
+              <p className="text-[#A681DD]">
+                At jointure ladyship an insisted so humanity he. Friendly
+                bachelor entrance to on by. As put impossible own apartments b
+              </p>
+            </div>
+           </div>
+          <div>
+          <img className="w-16 mb-3" src={rectangle} alt="" />
+          <div>
+              <h2 className="text-3xl font-bold text-white mb-10">Education</h2>
+              <p className="text-[#A681DD]">
+                At jointure ladyship an insisted so humanity he. Friendly
+                bachelor entrance to on by. As put impossible own apartments b
+              </p>
+            </div>
+          </div>
+          </div>
+        </div>
       </section>
     </>
   );

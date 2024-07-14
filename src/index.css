@@ -8,13 +8,35 @@
 }  */
 
 .banner{
+/* background: rgb(0,40,83);
+background: linear-gradient(170deg, rgba(0,40,83,1) 22%, rgba(4,12,24,1) 100%); */
 background: rgb(0,40,83);
-background: linear-gradient(170deg, rgba(0,40,83,1) 22%, rgba(4,12,24,1) 100%);
+background: linear-gradient(13deg, rgba(0,40,83,1) 22%, rgba(0,0,0,1) 100%);
 object-fit: cover;
 }
 
 .text-one{
 background: rgb(174,103,250);
+background: linear-gradient(97deg, rgba(174,103,250,1) 22%, rgba(244,152,103,1) 100%);
+-webkit-background-clip: text;
+color: transparent;
+}
+
+.sponser{
+    /* background: rgb(0,40,83);
+background: linear-gradient(196deg, rgba(0,40,83,1) 22%, rgba(0,0,0,1) 100%); */
+background: rgb(0,40,83);
+background: linear-gradient(170deg, rgba(0,40,83,1) 22%, rgba(4,12,24,1) 100%);
+object-fit: cover;
+}
+
+.what-is-gtp{
+    background: rgb(76,128,184);
+    background: linear-gradient(162deg, rgba(76,128,184,1) 15%, rgba(0,0,0,1) 100%);
+}
+
+.possibilities{
+    background: rgb(174,103,250);
 background: linear-gradient(97deg, rgba(174,103,250,1) 22%, rgba(244,152,103,1) 100%);
 -webkit-background-clip: text;
 color: transparent;
