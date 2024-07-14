@@ -5,11 +5,9 @@
 
 /* *{
   border: 1px solid red
-}  */
+}   */
 
 .banner{
-/* background: rgb(0,40,83);
-background: linear-gradient(170deg, rgba(0,40,83,1) 22%, rgba(4,12,24,1) 100%); */
 background: rgb(0,40,83);
 background: linear-gradient(13deg, rgba(0,40,83,1) 22%, rgba(0,0,0,1) 100%);
 object-fit: cover;
@@ -23,21 +21,43 @@ color: transparent;
 }
 
 .sponser{
-    /* background: rgb(0,40,83);
-background: linear-gradient(196deg, rgba(0,40,83,1) 22%, rgba(0,0,0,1) 100%); */
 background: rgb(0,40,83);
 background: linear-gradient(170deg, rgba(0,40,83,1) 22%, rgba(4,12,24,1) 100%);
 object-fit: cover;
 }
 
 .what-is-gtp{
-    background: rgb(76,128,184);
-    background: linear-gradient(162deg, rgba(76,128,184,1) 15%, rgba(0,0,0,1) 100%);
+background: rgb(76,142,213);
+background: linear-gradient(171deg, rgba(76,142,213,1) 0%, rgba(19,57,98,1) 18%, rgba(19,56,96,1) 29%, rgba(20,54,91,1) 68%, rgba(23,102,189,1) 100%, rgba(17,63,113,1) 100%);
 }
 
 .possibilities{
-    background: rgb(174,103,250);
+background: rgb(174,103,250);
 background: linear-gradient(97deg, rgba(174,103,250,1) 22%, rgba(244,152,103,1) 100%);
 -webkit-background-clip: text;
 color: transparent;
+}
+
+.future{
+background: rgb(0,40,83);
+background: linear-gradient(180deg, rgba(0,40,83,1) 22%, rgba(0,0,0,1) 100%);
+}
+
+.register-card{
+background: rgb(174,103,250);
+background: linear-gradient(25deg, rgba(174,103,250,1) 15%, rgba(244,152,103,1) 100%);
+}
+
+.gptblog{
+  background-image: url('https://i.ibb.co/Rb9T01Y/steve-johnson-ZPOo-DQc8y-Mw-unsplash.webp');
+  background-position: center;
+  height: 1000px;
+  padding: 40px 30px;
+  background-size: cover;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  object-fit: cover;
 }
