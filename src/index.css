@@ -51,8 +51,7 @@ background: linear-gradient(25deg, rgba(174,103,250,1) 15%, rgba(244,152,103,1) 
 .gptblog{
   background-image: url('https://i.ibb.co/Rb9T01Y/steve-johnson-ZPOo-DQc8y-Mw-unsplash.webp');
   background-position: center;
-  height: 1000px;
-  padding: 40px 30px;
+  height: 1080px;
   background-size: cover;
   border-radius: 2px;
   display: flex;
