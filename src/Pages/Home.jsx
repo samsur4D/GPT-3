@@ -6,9 +6,9 @@ import Gptblog from "../Home/Gptblog";
 
 const Home = () => {
   return (
-    <div>
+    <div className="overflow-hidden">
       <Banner></Banner>
-      <Future></Future>
+      {/* <Future></Future> */}
       {/* <Gptblog></Gptblog> */}
       <Footer></Footer>
     
