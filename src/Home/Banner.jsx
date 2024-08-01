@@ -13,15 +13,12 @@ const Banner = () => {
   return (
     <>
       <section className="banner py-10">
-      <nav className="container mx-auto flex justify-between ">
+      {/* <nav className="container mx-auto flex justify-between ">
           <div className="flex gap-32 items-center">
             <div>
               <h1 className="text-2xl lg:text-4xl font-bold text-white">GPT-3</h1>
             </div>
-            {/* -------------------- */}
-      
-            {/* -------------------- */}
-            <div className="flex hidden lg:block">
+            <div className="flex ">
               <ul className="flex gap-10 text-white text-xl">
                 <li>Home</li>
                 <li>what is GPT?</li>
@@ -32,7 +29,7 @@ const Banner = () => {
             </div>
           </div>
 
-          <div className="flex hidden lg:block items-center  gap-15">
+          <div className="flex  lg:block items-center gap-15">
             <button className="text-white font-semibold px-6 py-2 rounded-md">
               Sign In
             </button>
@@ -40,21 +37,21 @@ const Banner = () => {
               Sign Up
             </button>
           </div>
-        </nav>
+        </nav> */}
         {/* ____________________________ */}
-        <div className="container mx-auto flex items-center">
-          <div>
-            <h1 className="text-one text-7xl text-white font-bold mb-12">
+        {/* PC Banner and tablet banner */}
+        <div className="container mx-auto flex flex-col  md:flex-row  lg:flex-row items-center px-4 md:px-0 lg:px-0 py-8 md:py-0 lg:py-0">
+          <div className="">
+            <h1 className="text-one text-4xl md:text-5xl lg:text-7xl text-white font-bold mb-12">
               Let’s Build Something amazing with GPT-3 OpenAI
             </h1>
-            <p className="text-white text-x mb-8">
+            <p className="text-white text-sm md:text-xl lg:text-xl mb-8">
               Yet bed any for travelling assistance indulgence unpleasing. Not
               thoughts all exercise blessing. Indulgence way everything joy
               alteration boisterous the attachment. Party we years to order
               allow asked of.
             </p>
             <div className="mb-5 h-12 flex">
-              {/* <textare* className="w-96 bg-white opacity-20 " placeholder="Your Email Address" name="" id=""></textare*/}
               <input
                 className="bg-white opacity-25 w-96 px-10 rounded-l-md"
                 placeholder="Your Email Address"
@@ -65,22 +62,24 @@ const Banner = () => {
               </button>
             </div>
 
-            <div className="flex items-center text-white gap-8">
+            <div className="flex-1 items-center text-white gap-8">
               <img src={people} alt="" />
               <p>1,600 people requested access a visit in last 24 hours</p>
             </div>
           </div>
           <div>
             <img
-              className="mx-32 w-[1500px] h-[720px]"
+              className="md:mx-10 lg:mx-32 md:w-[1090px] lg:w-[1500px] md:h-[500px] lg:h-[720px]"
               src={bannerpic}
               alt=""
             />
             <p></p>
           </div>
         </div>
+
+
         {/* ____________________________ */}
-        <div className=" flex items-center container mx-auto justify-center gap-28 py-20">
+        <div className=" flex lg:flex-row items-center container mx-auto justify-center gap-28 py-20">
           <img src={google} alt="" />
           <img src={slack} alt="" />
           <img src={atlas} alt="" />

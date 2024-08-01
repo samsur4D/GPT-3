@@ -10,7 +10,7 @@ import five from "../assets/Rectangle 22 (4).png";
 const Future = () => {
   return (
     <div className="future pt-12 pb-16  ">
-      <div className=" flex justify-between container mx-auto gap-60">
+      <div className=" flex flex-row justify-between container mx-auto gap-60">
         <div>
           <h1 className="text-4xl h-[200px] font-bold text-one">
             The Future is Now and <br /> You Just Need To Realize <br /> It.

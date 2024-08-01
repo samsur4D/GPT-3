@@ -9,7 +9,7 @@ const Home = () => {
     <div>
       <Banner></Banner>
       <Future></Future>
-      <Gptblog></Gptblog>
+      {/* <Gptblog></Gptblog> */}
       <Footer></Footer>
     
     </div>
