@@ -4,8 +4,8 @@ const Footer = () => {
     return (
        <div className='bg-[#042C54]'>
          <div  className='mx-auto container text-animation '>
-               <h1 className='flex justify-center pt-32 pb-3  text-6xl font-bold text-one'>Do you want to step in to the </h1>
-               <h1 className='flex justify-center   text-6xl font-bold text-one'> future before others</h1>
+               <h1 className='flex justify-center pt-32 pb-3  text-2xl lg:text-6xl font-bold text-one'>Do you want to step in to the </h1>
+               <h1 className='flex justify-center  text-2xl lg:text-6xl font-bold text-one'> future before others</h1>
 
               <div className='flex justify-center mt-16'>
               <button className='border  border-white-200 px-5 py-4 font-bold text-white'>

@@ -1,44 +1,38 @@
-import React from 'react';
+<div className="mx-auto gptblog bg-fixed ">
+      <div className="bg-black opacity-70 h-screen w-screen  px-96 max-w-full py-60">
+      <div className="container mx-auto">
+      <h1  className=" text-7xl font-bold text-one text-animation ">
+          Thinking Of Using GPT 3? Here Is Crash Course
+        </h1>
+        <p className="text-white text-3xl mt-5 mb-5">
+          Generative Pre-trained Transformer 3 aka GPT3 is the latest state of
+          the art NLP model offered by OpenAI. In this article, you will learn
+          how to make the most of the model and Implement it in your product or
+          personal project.
+        </p>
+        <p data-text='What makes me a credible source?' className="think text-5xl  text-white mb-5 font-bold">
+          What makes me a credible source?
+        </p>
+        <ol className="text-white">
+          <li>Machine learning practitioner for over 5 years.</li>
+          <li>Have been using GPT 3 for over 1.5 years.</li>
+          <li>
+            Consulted 4 startups to integrate GPT 3 in their product and
+            personally used it in a lot of internal tools.
+          </li>
+          <li>Trained a similar model(GPT NeoX) from scratch</li>
+        </ol>
+        <p className="text-white mt-4 mb-3">
+          This is going to be a long article . If you are here there is a good
+          chance you might already know a few things that are mentioned in this
+          article. There is a button to Jump to a particular section at the
+          right bottom feel free to use it. Nonetheless, I am sure you will
+          learn something that you didn’t know before.
+        </p>
 
-const bal = () => {
-    return (
-        <div className="container mx-auto flex flex-col  md:flex-row  lg:flex-row items-center px-4 md:px-0 lg:px-0 py-8 md:py-0 lg:py-0">
-          <div className="">
-            <h1 className="text-one text-4xl md:text-5xl lg:text-7xl text-white font-bold mb-12">
-              Let’s Build Something amazing with GPT-3 OpenAI
-            </h1>
-            <p className="text-white text-sm md:text-xl lg:text-xl mb-8">
-              Yet bed any for travelling assistance indulgence unpleasing. Not
-              thoughts all exercise blessing. Indulgence way everything joy
-              alteration boisterous the attachment. Party we years to order
-              allow asked of.
-            </p>
-            <div className="mb-5 h-12 flex">
-              <input
-                className="bg-white opacity-25 w-96 px-10 rounded-l-md"
-                placeholder="Your Email Address"
-                type="email"
-              ></input>
-              <button className="bg-orange-700 text-white font-semibold px-6 rounded-r-md ">
-                Get started
-              </button>
-            </div>
-
-            <div className="flex-1 items-center text-white gap-8">
-              <img src={people} alt="" />
-              <p>1,600 people requested access a visit in last 24 hours</p>
-            </div>
-          </div>
-          <div>
-            <img
-              className="md:mx-10 lg:mx-32 md:w-[1090px] lg:w-[1500px] md:h-[500px] lg:h-[720px]"
-              src={bannerpic}
-              alt=""
-            />
-            <p></p>
-          </div>
-        </div>
-    );
-};
-
-export default bal;
+        <h1 className="text-white text-3xl  font-bold underline">
+          So Let's Start{" "}
+        </h1>
+      </div>
+      </div>
+    </div>

@@ -68,35 +68,7 @@ const Banner = () => {
               <p>1,600 people requested access a visit in last 24 hours</p>
             </div>
           </div>
-         {/* Phone & Tablet banner */}
-        {/* <section className="block md:block lg:hidden container mx-auto">
-        <div className=" ">
-            <h1 className="text-one text-4xl md:text-5xl lg:text-7xl text-white font-bold mb-12">
-              Let’s Build Something amazing with GPT-3 OpenAI
-            </h1>
-            <p className="text-white text-sm md:text-xl lg:text-xl mb-8">
-              Yet bed any for travelling assistance indulgence unpleasing. Not
-              thoughts all exercise blessing. Indulgence way everything joy
-              alteration boisterous the attachment. Party we years to order
-              allow asked of.
-            </p>
-            <div className="mb-5 h-12 flex">
-              <input
-                className="bg-white opacity-25 w-96 px-10 rounded-l-md"
-                placeholder="Your Email Address"
-                type="email"
-              ></input>
-              <button className="bg-orange-700 text-white font-semibold px-6 rounded-r-md ">
-                Get started
-              </button>
-            </div>
-
-            <div className="flex-1 items-center text-white gap-8">
-              <img src={people} alt="" />
-              <p>1,600 people requested access a visit in last 24 hours</p>
-            </div>
-          </div>
-        </section> */}
+      
         {/* --------------------------- */}
           <div>
             <img
@@ -118,9 +90,13 @@ const Banner = () => {
           <img src={shop} alt="" />
         </div>
         {/* ____________________________ */}
+
+
+
+
         <div className="what-is-gtp  px-32 pt-20 container mx-auto">
           <img className="w-16 mb-3" src={rectangle} alt="" />
-          <div className="flex justify-between gap-96 mb-24 ">
+          <div className=" lg:flex justify-between gap-96 mb-24 ">
             <h1 className="w-[700px] text-3xl font-bold text-white">
               What is GPT-3
             </h1>
@@ -132,14 +108,14 @@ const Banner = () => {
               entrance to on by.
             </p>
           </div>
-          <div className="flex justify-between gap-96 mb-24">
-            <h1 className="possibilities text-5xl font-bold">
+          <div className="lg:flex justify-between gap-96 mb-24">
+            <h1 className="possibilities text-2xl mb-5 lg:mb-0  lg:text-5xl font-bold">
               The possibilities are beyond your imagination
             </h1>
             <h5 className="w-[200px] text-orange-600">Explore The Library</h5>
           </div>
-          <div className="flex justify-center gap-16 pb-24">
-            <div>
+          <div className="lg:flex justify-center gap-16 pb-24">
+            <div className="mb-24 lg:mb-0">
               <img className="w-16 mb-3" src={rectangle} alt="" />
               <div>
                 <h2 className="text-3xl font-bold text-white mb-10">
@@ -151,7 +127,7 @@ const Banner = () => {
                 </p>
               </div>
             </div>
-           <div>
+           <div  className="mb-24 lg:mb-0">
            <img className="w-16 mb-3" src={rectangle} alt="" />
            <div>
               <h2 className="text-3xl font-bold text-white mb-10">
@@ -163,7 +139,7 @@ const Banner = () => {
               </p>
             </div>
            </div>
-          <div>
+          <div  className="mb-24 lg:mb-0">
           <img className="w-16 mb-3" src={rectangle} alt="" />
           <div>
               <h2 className="text-3xl font-bold text-white mb-10">Education</h2>

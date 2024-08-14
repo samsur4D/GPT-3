@@ -8,8 +8,8 @@ const Home = () => {
   return (
     <div className="overflow-hidden">
       <Banner></Banner>
-      {/* <Future></Future> */}
-      {/* <Gptblog></Gptblog> */}
+      <Future></Future>
+      <Gptblog></Gptblog>
       <Footer></Footer>
     
     </div>
