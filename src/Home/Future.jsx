@@ -164,7 +164,7 @@ const Future = () => {
   </div>
 
   {/* card 2 and 3 */}
-  <div className="flex flex-col gap-8 md:gap-16 ">
+  <div className="flex flex-col md:flex-row lg:flex-col gap-8 md:gap-16 ">
     <div className="w-full md:w-[400px] h-[330px]">
       <img className="w-full h-[160px] md:h-[250px]" src={two} alt="" />
       <div className="bg-[#042C54] py-5 pb-5 px-5">
@@ -189,7 +189,7 @@ const Future = () => {
   </div>
 
   {/* card 4 and 5 */}
-  <div className="flex flex-col gap-8 md:gap-16">
+  <div className="flex  flex-col md:flex-row lg:flex-col gap-8 md:mt-24 lg:mt-0 md:mb-36 md:gap-16">
     <div className="w-full md:w-[400px] h-[330px]">
       <img className="w-full h-[160px] md:h-[250px]" src={four} alt="" />
       <div className="bg-[#042C54] py-5 pb-5 px-5">
